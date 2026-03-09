@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CIDR Pro</string>
+    <style name="Theme.CidrPro" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

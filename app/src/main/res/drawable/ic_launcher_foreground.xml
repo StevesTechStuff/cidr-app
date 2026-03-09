@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:pivotX="54" android:pivotY="54">
+        <!-- Outer 'C' shape -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,24C38.5,24 26,36.5 26,52C26,67.5 38.5,80 54,80C57.5,80 61,79.5 64,78.5L64,68.5C61.5,69.5 58,70 54,70C44,70 36,62 36,52C36,42 44,34 54,34C58,34 61.5,34.5 64,35.5L64,25.5C61,24.5 57.5,24 54,24Z" />
+
+        <!-- Inner hollow part of 'C' (using the background color) -->
+        <path
+            android:fillColor="#262626"
+            android:pathData="M54,30C42.4,30 32,40.4 32,52C32,63.6 42.4,74 54,74C56.5,74 59,73.5 61,72.5L61,62.5C59.5,63.5 57,64 54,64C47.4,64 42,58.6 42,52C42,45.4 47.4,40 54,40C57,40 59.5,40.5 61,41.5L61,31.5C59,30.5 56.5,30 54,30Z" />
+
+        <!-- Network graphic inside the 'C' -->
+        <path
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="1.5"
+            android:pathData="M54,52 L44,42"/>
+        <path
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="1.5"
+            android:pathData="M54,52 L64,42"/>
+        <path
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="1.5"
+            android:pathData="M54,52 L54,67"/>
+
+        <!-- Nodes -->
+        <path
+            android:fillColor="#76FF03"
+            android:pathData="M44,42m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+        <path
+            android:fillColor="#76FF03"
+            android:pathData="M64,42m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+        <path
+            android:fillColor="#76FF03"
+            android:pathData="M54,67m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+
+        <!-- Central Node -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M54,52m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"/>
+    </group>
+</vector>
